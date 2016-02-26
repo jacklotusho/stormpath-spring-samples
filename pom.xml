@@ -94,8 +94,11 @@
 
         <servlet.version>2.5</servlet.version>
 
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java-version>1.8</java-version>
         <!-- For the Maven Jetty plugin (mvn jetty:run) -->
-        <jetty.version>8.1.5.v20120716</jetty.version>
+        <jetty.version>9.3.5.v20151012</jetty.version>
 
         <!-- Test Dependencies: -->
         <logback.version>1.0.1</logback.version>
@@ -106,13 +109,15 @@
         <testng.version>6.4</testng.version>
         <spring.version>3.1.0.RELEASE</spring.version>
         <taglibs.version>1.1.2</taglibs.version>
-        <logback.version>0.9.24</logback.version>
-        <stormpath.sdk.version>0.5.0</stormpath.sdk.version>
+        <logback.version>1.1.2</logback.version>
+        <stormpath.sdk.version>1.0.RC7.6</stormpath.sdk.version>
         <hibernate.version>3.3.2.GA</hibernate.version>
         <cglib.version>2.2</cglib.version>
         <javassist.version>3.8.0.GA</javassist.version>
         <hsqldb.version>2.2.8</hsqldb.version>
         <jackson.version>1.7.6</jackson.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 
     </properties>
 
